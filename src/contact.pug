@@ -1,8 +1,9 @@
-doctype html
-html   
-    head
-        title Contact Quick Blog
-        meta(name="description", content="Contact me, Pavel Ciupitu, the creator of this quick blog.")
-    body
-        h1 Contact Quick Blog
-        p Contact me, Pavel Ciupitu, the creator of this quick blog.
+extend _component/layout/base
+
+block config
+    -
+        var title = 'Contact Quick Blog';
+        var description = "Contact me, Pavel Ciupitu, the creator of this quick blog";
+block content
+    h1=title
+    p=description
