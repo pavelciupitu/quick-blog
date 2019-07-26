@@ -1,0 +1,21 @@
+// * {
+//     margin: 0;
+//     padding: 0;
+//     border: 0;
+//     box-sizing:border-box;
+// }
+
+html,
+body {
+    height: 100%;
+}
+
+.welcome {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+        // align-items: center;
+    justify-content: center;
+    background-image: radial-gradient($color-buttercup, $color-golden-grass);
+}
