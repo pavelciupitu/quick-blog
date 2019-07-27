@@ -1,4 +1,25 @@
-$color-buttercup: #f1c40f;
-$color-golden-grass: #dd9a2d;
 $color-white: #fff;
+
+$color-normal: #f1c40f;
+$color-dark: #dd9a2d;
 $color-ecstasy: #FB7C0E;
+
+$theme: 'lurpak';
+
+@if ($theme == 'lurpak') {
+    $color-normal: #f1c40f;
+    $color-dark: #dd9a2d;
+    $color-ecstasy: #FB7C0E;
+}
+
+@if ($theme == 'blue') {
+    $color-normal: #415a67;
+    $color-dark: #1C304A;
+    $color-ecstasy: #dd9a2d;
+}
+
+@if ($theme == 'purple') {
+    $color-normal: #d76d93;
+    $color-dark: #5f3f62;
+    $color-ecstasy: #472e49;
+}
