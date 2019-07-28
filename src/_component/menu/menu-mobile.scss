@@ -1,15 +1,18 @@
 .menu {
     // display: flex;
-    // padding: 0.5rem;
+    padding: 0.5rem;
 }
 
 .menu__panel {
     margin:0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
 }
 
 .menu__title {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
     background-color: $color-normal;
     color: $color-white;
     padding: 0.5rem 1rem;
@@ -23,6 +26,8 @@
     background-color: $color-dark;
     color: $color-white;
     text-align: center;
+    margin-bottom: 1rem;
+    flex-grow: 1;
 
     a {
         color: $color-white;
@@ -30,5 +35,8 @@
         padding: 0.5rem 1rem;
         display:block;
     }
-}
 
+    li {
+        list-style-type: none;
+    }
+}

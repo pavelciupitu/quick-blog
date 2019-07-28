@@ -1,12 +1,15 @@
 doctype html
 html
     block config
+    //- -
+    //-     var baseUrl = taskTarget === 'tmp' ? '/' : '/quick-blog/'
     head
         title=title
         meta(name="description", content=description)
         link(rel="stylesheet", href="style.css")
         //- link(href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" )
     body
-        block content
-        include ../menu/menu
-        include ../footer/footer
+        .container
+            block content
+            include ../menu/menu
+            include ../footer/footer
