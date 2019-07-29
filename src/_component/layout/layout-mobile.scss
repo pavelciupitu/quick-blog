@@ -151,4 +151,9 @@ html {
       padding-left: 1rem;
       margin: 1rem 0;
     }
+    .image {
+      max-height: 200px;
+      border: 2px solid $color-normal;
+      border-radius: 2rem;
+  }
   }

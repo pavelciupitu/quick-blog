@@ -24,4 +24,10 @@
           font-size: 2rem;
       }
     }
+    .image {
+      min-height: 380px;
+      max-height: 380px;
+      border: 10px solid $color-normal;
+      border-radius: 2rem;
+  }
 }
