@@ -1,8 +1,8 @@
 footer
     .footer
-        div.footer__name &copy; 2019 Pavel Ciupitu
+        div &copy; #{new Date().getFullYear()} #{data.site.company}
         ul.footer__list
             li
-                a.footer__link(href="/privacy") Privacy
+                a.footer__link(href=`${baseUrl}privacy`) Privacy 
             li
-                a.footer__link(href="/policy") Policy
+                a.footer__link(href=`${baseUrl}terms`) Terms
