@@ -1,0 +1,23 @@
+extends ../_component/layout/base
+block config
+    -
+        var title = 'Contact Quick Blog'
+        var description = 'Contact me, Pavel Ciupitu'
+block content
+    .content
+        #continue
+        h2 Contact Information
+        p You can find me on those social media platforms:
+        ul
+            li
+                a(title='Click to go to Facebook' href='http://facebook.com/pavelciupitu') Facebook
+            li
+                a(title='Click to go to LinkedIn' href='https://www.linkedin.com/in/ciupitu-pavel-639465156/') LinkedIn
+            li
+                a(title='Click to go to GitHub' href='https://github.com/pavelciupitu') GitHub
+        hr
+        figure.image-container
+            img.image(src=`${baseUrl}asset/image/cat.jpg`)
+            figcaption.image-caption
+                strong Note:
+                span  Cat!
