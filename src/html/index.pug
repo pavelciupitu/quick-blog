@@ -1,0 +1,12 @@
+extends ../_component/layout/base
+block config
+    -
+        var title = 'HTML, what I\'ve learned so far'
+        var description = 'Explore the HTML for beginers!'
+block content
+    .content
+        h2 HTML5 - the web is HTML.
+        .list-wrapper
+            each article in data.html
+                //- pre=JSON.stringify(article, null, 2)
+                include ../_component/article/article

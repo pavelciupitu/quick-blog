@@ -1,0 +1,19 @@
+{
+    "head": {
+        "title": "my aaaa title",
+        "description": "my a description"
+    },
+    "body": [
+        {
+            "type": "h2",
+            "data": "this is a header 2"
+        },
+        {
+            "type": "p2",
+            "data": [
+                "this is the first paragraph",
+                "this is the second paragraph"
+            ]
+        }
+    ]
+}
