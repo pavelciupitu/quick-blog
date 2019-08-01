@@ -1,7 +1,7 @@
 {
     "head": {
         "title": "my bbb title",
-        "description": "my ab description"
+        "description": "my bbb description"
     },
     "body": [
         {
@@ -9,8 +9,24 @@
             "data": "this is b header 2"
         },
         {
-            "type": "p2",
+            "type": "p",
             "data": [
+                "this is the first paragraph bbbb",
+                "this is the second paragraph bbbb",
+                "this is the first paragraph bbbb",
+                "this is the second paragraph bbbb",
+                "this is the first paragraph bbbb",
+                "this is the second paragraph bbbb",
+                "this is the first paragraph bbbb",
+                "this is the second paragraph bbbb",
+                "this is the first paragraph bbbb",
+                "this is the second paragraph bbbb",
+                "this is the first paragraph bbbb",
+                "this is the second paragraph bbbb",
+                "this is the first paragraph bbbb",
+                "this is the second paragraph bbbb",
+                "this is the first paragraph bbbb",
+                "this is the second paragraph bbbb",
                 "this is the first paragraph bbbb",
                 "this is the second paragraph bbbb"
             ]

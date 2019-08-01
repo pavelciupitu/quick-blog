@@ -1,6 +1,6 @@
 {
     "head": {
-        "title": "my aaaa title",
+        "title": "my aAAAAA title",
         "description": "my a description"
     },
     "body": [
@@ -9,7 +9,7 @@
             "data": "this is a header 2"
         },
         {
-            "type": "p2",
+            "type": "p",
             "data": [
                 "this is the first paragraph",
                 "this is the second paragraph"

@@ -2,9 +2,17 @@ extends ../_component/layout/base
 
 block config
     -
-        var title = template.head.title || 'Change me titssddle'
-        var description = 'TEmple descrsdsdiption'
+        var title = template.head.title || 'Change me the title'
+        var description = template.head.description || 'Change me Temple description'
 block content
     .content
-        #continue
-        h2 Features
+        //- #continue
+        each something in template.body
+            if something.type == "h2"
+                h2=something.data
+            if something.type == "p"
+                each paragraph in something.data
+                    p=paragraph
+            //- .h3 something. 
+            //- pre=JSON.stringify(template.body, null, 4)
+            //- .da sdasdasdasdsd
