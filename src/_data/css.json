@@ -24,4 +24,9 @@
       "link": "article/css-colors",
       "description": "HTML and CSS supports 140 standard color names."
     }
+    ,{
+      "title": "Test a new article",
+      "link": "article/css-new",
+      "description": "Just adding some text to see how it will aperar"
+    },
 ]
